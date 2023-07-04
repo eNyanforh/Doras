@@ -37,7 +37,7 @@ export default function App(){
   function allNewDice(){
     let dices = []
     let randomNum
-    var i=0;
+    //var i=0;
     while(dices.length<10){
       randomNum = {
         value:Math.ceil(Math.random()*6),
@@ -46,7 +46,7 @@ export default function App(){
       }
       
       dices=[randomNum, ...dices]
-      i++
+      //i++
       
     }
     return dices
